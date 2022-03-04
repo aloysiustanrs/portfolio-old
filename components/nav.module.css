@@ -1,0 +1,15 @@
+@media (max-width: 340px) {
+  .navName {
+    font-size: 18px;
+  }
+}
+
+.navName {
+  font-family: "Nunito", sans-serif;
+  font-size: px;
+  letter-spacing: 0.2em;
+}
+
+.nav {
+  margin: 1rem 0 3rem;
+}

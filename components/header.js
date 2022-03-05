@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import utilStyles from "../styles/utils.module.css";
 const Header = () => {
   return (
-    <div className="d-flex flex-row">
+    <div className="d-flex flex-row ">
       <div>
         <h1>Hello ! I'm Aloysius </h1>
         <p>
@@ -19,9 +19,9 @@ const Header = () => {
       <Image
         priority
         src="/images/profile.jpg"
-        className={`shadow ${utilStyles.borderCircle}`}
-        height={200}
-        width={300}
+        className={` ${utilStyles.borderCircle}`}
+        height={265}
+        width={400}
         alt="Aloysius Tan"
       />
     </div>

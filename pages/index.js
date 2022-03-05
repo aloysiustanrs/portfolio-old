@@ -1,4 +1,4 @@
-import Layout, { siteTitle } from "../components/layout";
+import Layout from "../components/layout";
 import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
@@ -23,7 +23,11 @@ export default function Home({ allPostsData }) {
     <Layout>
       <Header className={styles.header} />
 
+      <hr className={styles.hr} />
+
       <Project />
+
+      <hr className={styles.hr} />
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Latest Blogs</h2>
@@ -42,6 +46,8 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
       </section>
+
+      <hr className={styles.hr} />
     </Layout>
   );
 }

@@ -6,8 +6,8 @@
 
 .navName {
   font-family: "Nunito", sans-serif;
-  font-size: px;
   letter-spacing: 0.2em;
+  text-transform: uppercase;
 }
 
 .nav {

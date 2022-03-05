@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import styles from "./nav.module.css";
+import styles from "../styles/nav.module.css";
 
 import { Navbar } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
@@ -20,7 +20,7 @@ const Navigation = () => {
             style={{ width: "100%" }}
           >
             <Nav.Link href="#home">About</Nav.Link>
-            <Nav.Link href="#link">Projects</Nav.Link>
+            <Nav.Link href="/projects">Projects</Nav.Link>
             <Nav.Link href="/blog">Blog</Nav.Link>
             <Nav.Link href="#link">Contact</Nav.Link>
           </Nav>

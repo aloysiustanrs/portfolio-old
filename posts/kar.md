@@ -1,15 +1,12 @@
 ---
 title: "Two Forms of Pre-rendering"
-date: "2020-01-05"
+date: "2020-01-07"
 ---
 
----
+## HELLOOOOOK KARKAR
 
 ```JavaScript
-function add(a, b){
-   return a + b;
-}
-add(3, 4);
+HELLOOOOOK KARKAR
 ```
 
 ---

@@ -4,3 +4,10 @@
   align-items: center;
   margin-top: 1rem;
 }
+
+.hr {
+  width: 60%;
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}

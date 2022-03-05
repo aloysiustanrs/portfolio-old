@@ -1,13 +1,13 @@
 import Head from "next/head";
-import styles from "./layout.module.css";
+import styles from "../styles/layout.module.css";
 import Link from "next/link";
 import Navigation from "./nav";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-export const siteTitle = "Next.js Sample Website";
+export const siteTitle = "Aloysius' Portfolio Website";
 
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
   return (
     <div className={styles.container}>
       <Head>

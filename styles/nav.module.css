@@ -1,6 +1,17 @@
-@media (max-width: 340px) {
+@media (max-width: 483px) {
+  .navToggler {
+    margin: auto;
+    width: 100%;
+  }
   .navName {
-    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .navLinks {
+    text-align: center;
+    padding-top: 10px;
   }
 }
 
@@ -11,5 +22,5 @@
 }
 
 .nav {
-  margin: 1rem 0 3rem;
+  margin: 1rem 0;
 }

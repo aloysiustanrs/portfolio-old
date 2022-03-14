@@ -17,10 +17,7 @@ const Navigation = () => {
       />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto justify-content-end" style={{ width: "100%" }}>
-          <Nav.Link className={styles.navLinks} href="#home">
-            About
-          </Nav.Link>
-          <Nav.Link className={styles.navLinks} href="/projects">
+          <Nav.Link className={styles.navLinks} href="/#project-header">
             Projects
           </Nav.Link>
           <Nav.Link className={styles.navLinks} href="/blog">

@@ -1,15 +1,28 @@
+import styles from "../styles/project.module.css";
+
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
+
 const Project = () => {
   return (
     <>
-      <h1>Projects</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-        accumsan tempus odio at imperdiet. Etiam vulputate euismod urna quis
-        ultricies. Duis tincidunt non velit eget luctus. Suspendisse a iaculis
-        mi. Vestibulum venenatis condimentum lorem a vehicula. Donec
-        pellentesque turpis non magna hendrerit tristique. Curabitur at laoreet
-        lacus. Cras dolor sapien, pretium eu finibus a, dignissim vitae est.
-      </p>
+      <h1 id="project-header">Projects</h1>
+      <div className="d-flex justify-content-center mt-5">
+        <Carousel width="650px">
+          <div>
+            <img src="https://picsum.photos/id/237/536/354" />
+            <p className="legend">Legend 1</p>
+          </div>
+          <div>
+            <img src="https://picsum.photos/id/237/536/354" />
+            <p className="legend">Legend 2</p>
+          </div>
+          <div>
+            <img src="https://picsum.photos/id/237/536/354" />
+            <p className="legend">Legend 3</p>
+          </div>
+        </Carousel>
+      </div>
     </>
   );
 };

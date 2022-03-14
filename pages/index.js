@@ -25,7 +25,7 @@ export default function Home({ allPostsData }) {
 
       <hr className={styles.hr} />
 
-      <Project />
+      <Project id="projects" />
 
       <hr className={styles.hr} />
 

@@ -1,6 +1,5 @@
 import Head from "next/head";
 import styles from "../styles/layout.module.css";
-import Link from "next/link";
 import Navigation from "./nav";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -13,10 +12,7 @@ export default function Layout({ children }) {
       <Head>
         <link rel="icon" href="/favicon.ico" />
 
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
-        />
+        <meta name="description" content="Aloysius' Portfolio Website" />
         <meta
           property="og:image"
           content={`https://og-image.vercel.app/${encodeURI(

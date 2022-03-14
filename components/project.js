@@ -7,8 +7,12 @@ const Project = () => {
   return (
     <>
       <h1 id="project-header">Projects</h1>
-      <div className="d-flex justify-content-center mt-5">
-        <Carousel width="650px">
+      <div className={styles.div}>
+        <Carousel
+          className={styles.carousel}
+          transitionTime="400"
+          showThumbs={false}
+        >
           <div>
             <img src="https://picsum.photos/id/237/536/354" />
             <p className="legend">Legend 1</p>

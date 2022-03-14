@@ -1,0 +1,17 @@
+.div {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+@media (min-width: 1025px) {
+  .div {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+
+  .carousel {
+    width: 600px;
+  }
+}
